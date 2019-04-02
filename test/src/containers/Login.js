@@ -5,6 +5,7 @@ import FormGroup from '@material-ui/core/FormGroup';
 import FormControl from '@material-ui/core/FormControl';
 //import ControlLabel from '@material-ui/core/ControlLabel';
 import TextField from '@material-ui/core/TextField';
+import { Auth } from "aws-amplify";
 
 import "./Login.css";
 
@@ -30,6 +31,13 @@ export default class Login extends Component {
 
   handleSubmit = event => {
     event.preventDefault();
+
+    try {
+        await Auth.signIn(this.state.email, this.state.password);
+        alert("Logged in");
+      } catch (e) {
+        alert(e.message);
+      }
   }
 
   render() {
