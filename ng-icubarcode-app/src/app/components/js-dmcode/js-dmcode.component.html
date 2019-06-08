@@ -1,0 +1,31 @@
+<link href="https://fonts.googleapis.com/css?family=Ropa+Sans" rel="stylesheet">
+
+  <div class="main-content">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="card">
+            <div id="js-dmcode">
+
+                  <h1>Scan a data matrix code</h1>
+                  <!-- <p>Pure JavaScript DM code decoding library.</p> -->
+                    <!--<a class="button" id="startButton">Start</a>-->
+                    <!--<a class="button" id="resetButton">Reset</a>-->
+                  <div>Result:</div>
+                  <label hidden>Result:</label>                  
+                  <p id="result"> No Data Matrix code detected.</p>
+                  <video id="video" width="320" height="240"></video>
+
+                  <!-- hidden change source select panel -->
+                  <div id="sourceSelectPanel" style="display:none">
+                    <label for="sourceSelect" hidden>Change video source:</label>
+                    <select id="sourceSelect" style="max-width:400px" hidden>
+                    </select>
+                  </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
