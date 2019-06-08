@@ -1,183 +1,244 @@
-# [Material Dashboard Angular - Free Bootstrap Material Design Admin](https://www.creative-tim.com/product/material-dashboard-angular2)[![version][version-badge]][CHANGELOG]
+# ng-icubarcode-app
+Angular and git practice for RMIT IT project group member
 
-![alt text](http://s3.amazonaws.com/creativetim_bucket/products/53/original/opt_md_angular_thumbnail.jpg "Material Dashboard Angular Free")
+### For Angular component version
 
-**[Material Dashboard Angular](https://www.creative-tim.com/product/material-dashboard-angular2/)** is a free Material Bootstrap Admin with a fresh, new design inspired by Google's Material Design. We are very excited to introduce our take on the material concepts through an easy to use and beautiful set of components. Material Dashboard was built over the popular Bootstrap framework and it comes with a couple of third-party plugins redesigned to fit in with the rest of the elements.
+Please access to ng-practice-app subfolder or click [here](https://github.com/tomz12321/ng-practice-app/tree/master/ng-practice-app)
 
-Material Dashboard makes use of light, surface and movement. The general layout resembles sheets of paper following multiple different layers, so that the depth and order is obvious. The navigation stays mainly on the left sidebar and the content is on the right inside the main panel.
+## Demo (start server)
+	python -m SimpleHTTPServer 8000
 
-This product came as a result of users asking for a material dashboard after we released our successful [Material Kit](http://www.creative-tim.com/product/material-kit). We developed it based on your feedback and it is a powerful bootstrap admin dashboard, which allows you to build products like admin panels, content managements systems and CRMs.
+or download [Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb)
 
-Material Dashboard comes with 5 color filter choices for both the sidebar and the card headers (blue, green, orange, red and purple) and an option to have a background image on the sidebar.
+## Demo with Angular Dev Server (start server)
+	ng serve
 
-Material Dashboard uses a framework built by our friend [Federico - Bootstrap Material Design](http://fezvrasta.github.io/bootstrap-material-design/), who did an amazing job creating the backbone for the material effects, animations, ripples and transitions. Big thanks to his team for the effort and forward thinking they put into it.
+## Demo on a mobile device with user/password authentication
+If you want to demo this on a mobile device, you will need to make a tunnel to your local machine. [I recommend you use ngrok for this](https://www.twilio.com/blog/2015/09/6-awesome-reasons-to-use-ngrok-when-testing-webhooks.html). You can [download and install ngrok from ngrok.com](https://ngrok.com/). Once you have it installed, run
 
-Special thanks go to:
-[Robert McIntosh](https://github.com/mouse0270/bootstrap-notify) for the notification system.
-[Chartist](https://gionkunz.github.io/chartist-js/) for the wonderful charts.
-We are very excited to share this dashboard with you and we look forward to hearing your feedback!
-
-You can find the Github Repo here.
-
-## Links:
-
-+ [Live Preview](https://www.creative-tim.com/product/material-dashboard-angular2)
-+ [Material Kit - For Front End Development](http://www.creative-tim.com/product/material-kit?ref=github-md-angular)
+	./ngrok http -auth "user:password" 8000
+This will open a tunnel to the locally hosted project. You will get two randomly generated URLs, enter the HTTPS version into the browser in your mobile device.
 
 ## Quick start
 
 Quick start options:
 
-- [Download from Github](https://github.com/tiniestory/material-dashboard-angular2/archive/master.zip).
-- [Download from Creative Tim](http://www.creative-tim.com/product/material-dashboard-angular2).
+- Download from Github.
+
+	https://github.com/tomz12321/ng-practice-app/
+	
+	<img src="https://github.com/tomz12321/ng-practice-app/blob/tomz12321-readme-2-2/readme-img/Screen-Shot-Download-from-Github.png" width = "1996" height = "502" alt="Screen-Shot-Download-from-Google-drive.png" 
+align=center>
+
+- Download MVPs from Google drive
+
+	https://drive.google.com/drive/u/1/folders/1aUscdtWhmAVoQ83Ii8cSNZSfyfMNgu2i
+	
+	<img src="https://github.com/tomz12321/ng-practice-app/blob/tomz12321-readme-2-2/readme-img/Screen-Shot-Download-from-Google-drive.png" width = "2150" height = "244" alt="Screen-Shot-Download-from-Google-drive.png" 
+align=center>
+
+## Release table
+
+Table of versions among prototype release versions and git versions
+
+Git version / Prototype release version
+
+- Prototype 4 /
+Github link: [tomz12321/ng-practice-app: Pull Request 23](https://github.com/tomz12321/ng-practice-app/pull/23) /
+Prototype4_21052019
+- Prototype 3 /
+Github link: [tomz12321/ng-practice-app: Pull Request 16](https://github.com/tomz12321/ng-practice-app/pull/16) /
+Prototype3_10052019
+- Prototype 2 /
+Github links: [tomz12321/ng-practice-app: Pull Request 7](https://github.com/tomz12321/ng-practice-app/pull/7) /
+Prototype2_22042019
+- Prototype 1 /
+Github links: [tomz12321/ng-practice-app: Pull Request 6](https://github.com/tomz12321/ng-practice-app/pull/6) /
+Prototype1_09042019
+
+## Release notes
+-  Prototype 4 -
+
+	- Complete integration demonstration on Angular framework
+
+- Prototype 3 -
+
+	- Release pure HTML/CSS/JavaScript webpages performing all 1D barcode scanner, QR code scanner and 2D data matrix code scanner
+
+	- Regression test pass of 2D data matrix code scanner with Sponsors
+
+- Prototype 2 -
+
+	- Create a webpage using JavaScript file performing 1D barcode scanner
+	- User test pass of 1D barcode scanner with Sponsors
+
+- Prototype 1 -
+
+	- Release the code using HTML/JavaScript performing getUserMedia API can get the video stream data from mobile devices and selecting device camera by device ids.
 
 ## Terminal Commands
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0 and angular 4.x.
+This project was generated with Angular CLI version 1.0.0 and angular 7.x.
 
-1. Install NodeJs from [NodeJs Official Page](https://nodejs.org/en).
+1. Install NodeJs from [NodeJs Official Page](https://nodejs.org/).
+
 2. Open Terminal
+
 3. Go to your file project
+
 4. Make sure you have installed [Angular CLI](https://github.com/angular/angular-cli) already. If not, please install.
-5. Run in terminal: ```npm install```
-6. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+5. Run in terminal: npm install
 
-### What's included
+6. Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
+
+To get more help on the [Angular CLI](https://github.com/angular/angular-cli) use ng help or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Usage
+### Deployment
+
+When you are ready to deploy your Angular application to a remote server, you have various options for deployment; see instructions [here](https://angular.io/guide/deployment)
+
+### Basic deployment to a remote server
+
+	For the simplest deployment, create a production build and copy the output directory to a web server.
+
+	Start with the production build:
+
+		ng build --prod
+
+	Copy everything within the output folder (dist/ by default) to a folder on the server.
+
+	Configure the server to redirect requests for missing files to index.html. Learn more about server-side redirects below.
+
+	This is the simplest production-ready deployment of your application.
+ 
+## What's included
+
+Please access to ng-practice-app subfolder or click [here](https://github.com/tomz12321/ng-practice-app/tree/master/ng-practice-app)
 
 Within the download you'll find the following directories and files:
 
-```
-material-dashboard-angular
-├── CHANGELOG.md
-├── LICENSE.md
-├── README.md
-├── angular-cli.json
-├── documentation
-├── e2e
-├── karma.conf.js
-├── package-lock.json
-├── package.json
-├── protractor.conf.js
-├── src
-│   ├── app
-│   │   ├── app.component.css
-│   │   ├── app.component.html
-│   │   ├── app.component.spec.ts
-│   │   ├── app.component.ts
-│   │   ├── app.module.ts
-│   │   ├── app.routing.ts
-│   │   ├── components
-│   │   │   ├── components.module.ts
-│   │   │   ├── footer
-│   │   │   │   ├── footer.component.css
-│   │   │   │   ├── footer.component.html
-│   │   │   │   ├── footer.component.spec.ts
-│   │   │   │   └── footer.component.ts
-│   │   │   ├── navbar
-│   │   │   │   ├── navbar.component.css
-│   │   │   │   ├── navbar.component.html
-│   │   │   │   ├── navbar.component.spec.ts
-│   │   │   │   └── navbar.component.ts
-│   │   │   └── sidebar
-│   │   │       ├── sidebar.component.css
-│   │   │       ├── sidebar.component.html
-│   │   │       ├── sidebar.component.spec.ts
-│   │   │       └── sidebar.component.ts
-│   │   ├── dashboard
-│   │   │   ├── dashboard.component.css
-│   │   │   ├── dashboard.component.html
-│   │   │   ├── dashboard.component.spec.ts
-│   │   │   └── dashboard.component.ts
-│   │   ├── icons
-│   │   │   ├── icons.component.css
-│   │   │   ├── icons.component.html
-│   │   │   ├── icons.component.spec.ts
-│   │   │   └── icons.component.ts
-│   │   ├── layouts
-│   │   │   └── admin-layout
-│   │   │       ├── admin-layout.component.html
-│   │   │       ├── admin-layout.component.scss
-│   │   │       ├── admin-layout.component.spec.ts
-│   │   │       ├── admin-layout.component.ts
-│   │   │       ├── admin-layout.module.ts
-│   │   │       └── admin-layout.routing.ts
-│   │   ├── maps
-│   │   │   ├── maps.component.css
-│   │   │   ├── maps.component.html
-│   │   │   ├── maps.component.spec.ts
-│   │   │   └── maps.component.ts
-│   │   ├── notifications
-│   │   │   ├── notifications.component.css
-│   │   │   ├── notifications.component.html
-│   │   │   ├── notifications.component.spec.ts
-│   │   │   └── notifications.component.ts
-│   │   ├── table-list
-│   │   │   ├── table-list.component.css
-│   │   │   ├── table-list.component.html
-│   │   │   ├── table-list.component.spec.ts
-│   │   │   └── table-list.component.ts
-│   │   ├── typography
-│   │   │   ├── typography.component.css
-│   │   │   ├── typography.component.html
-│   │   │   ├── typography.component.spec.ts
-│   │   │   └── typography.component.ts
-│   │   ├── upgrade
-│   │   │   ├── upgrade.component.css
-│   │   │   ├── upgrade.component.html
-│   │   │   ├── upgrade.component.spec.ts
-│   │   │   └── upgrade.component.ts
-│   │   └── user-profile
-│   │       ├── user-profile.component.css
-│   │       ├── user-profile.component.html
-│   │       ├── user-profile.component.spec.ts
-│   │       └── user-profile.component.ts
-│   ├── assets
-│   │   ├── css
-│   │   │   └── demo.css
-│   │   ├── img
-│   │   └── scss
-│   │       ├── core
-│   │       └── material-dashboard.scss
-│   ├── environments
-│   ├── favicon.ico
-│   ├── index.html
-│   ├── main.ts
-│   ├── polyfills.ts
-│   ├── styles.css
-│   ├── test.ts
-│   ├── tsconfig.app.json
-│   ├── tsconfig.spec.json
-│   └── typings.d.ts
-├── tsconfig.json
-├── tslint.json
-└── typings
+	ng-practice-app
+	├── CHANGELOG.md
+	├── LICENSE.md
+	├── README.md
+	├── angular-cli.json
+	├── documentation
+	├── e2e
+	├── karma.conf.js
+	├── package-lock.json
+	├── package.json
+	├── protractor.conf.js
+	├── src
+	│   ├── app
+	│   │   ├── app.component.css
+	│   │   ├── app.component.html
+	│   │   ├── app.component.spec.ts
+	│   │   ├── app.component.ts
+	│   │   ├── app.module.ts
+	│   │   ├── app.routing.ts
+	│   │   ├── components
+	│   │   │   ├── components.module.ts
+	│   │   │   ├── footer
+	│   │   │   │   ├── footer.component.css
+	│   │   │   │   ├── footer.component.html
+	│   │   │   │   ├── footer.component.spec.ts
+	│   │   │   │   └── footer.component.ts
+	│   │   │   ├── navbar
+	│   │   │   │   ├── navbar.component.css
+	│   │   │   │   ├── navbar.component.html
+	│   │   │   │   ├── navbar.component.spec.ts
+	│   │   │   │   └── navbar.component.ts
+	│   │   │   ├── sidebar
+	│   │   │   │   ├── sidebar.component.css
+	│   │   │   │   ├── sidebar.component.html
+	│   │   │   │   ├── sidebar.component.spec.ts
+	│   │   │   │   └── sidebar.component.ts
+	│   │   │   ├── jsbarcode
+	│   │   │   │   ├── jsbarcode.component.css
+	│   │   │   │   ├── jsbarcode.component.html
+	│   │   │   │   ├── jsbarcode.component.spec.ts
+	│   │   │   │   └── jsbarcode.component.ts
+	│   │   │   ├── js-qrcode
+	│   │   │   │   ├── js-qrcode.component.css
+	│   │   │   │   ├── js-qrcode.component.html
+	│   │   │   │   ├── js-qrcode.component.spec.ts
+	│   │   │   │   └── js-qrcode.component.ts
+	│   │   │   └── js-dmcode
+	│   │   │       ├── js-dmcode.component.css
+	│   │   │       ├── js-dmcode.component.html
+	│   │   │       ├── js-dmcode.component.spec.ts
+	│   │   │       └── js-dmcode.component.ts
+	│   │   ├── dashboard
+	│   │   │   ├── dashboard.component.css
+	│   │   │   ├── dashboard.component.html
+	│   │   │   ├── dashboard.component.spec.ts
+	│   │   │   └── dashboard.component.ts
+	│   │   ├── icons
+	│   │   │   ├── icons.component.css
+	│   │   │   ├── icons.component.html
+	│   │   │   ├── icons.component.spec.ts
+	│   │   │   └── icons.component.ts
+	│   │   ├── layouts
+	│   │   │   └── admin-layout
+	│   │   │       ├── admin-layout.component.html
+	│   │   │       ├── admin-layout.component.scss
+	│   │   │       ├── admin-layout.component.spec.ts
+	│   │   │       ├── admin-layout.component.ts
+	│   │   │       ├── admin-layout.module.ts
+	│   │   │       └── admin-layout.routing.ts
+	│   │   ├── table-list
+	│   │   │   ├── table-list.component.css
+	│   │   │   ├── table-list.component.html
+	│   │   │   ├── table-list.component.spec.ts
+	│   │   │   └── table-list.component.ts
+	│   │   └── user-profile
+	│   │       ├── user-profile.component.css
+	│   │       ├── user-profile.component.html
+	│   │       ├── user-profile.component.spec.ts
+	│   │       └── user-profile.component.ts
+	│   ├── assets
+	│   │   ├── css
+	│   │   │   └── demo.css
+	│   │   ├── img
+	│   │   └── scss
+	│   │       ├── core
+	│   │       └── material-dashboard.scss
+	│   ├── environments
+	│   ├── favicon.ico
+	│   ├── index.html
+	│   ├── main.ts
+	│   ├── polyfills.ts
+	│   ├── styles.css
+	│   ├── test.ts
+	│   ├── tsconfig.app.json
+	│   ├── tsconfig.spec.json
+	│   └── typings.d.ts
+	├── tsconfig.json
+	├── tslint.json
+	└── typings
 
-```
 
-## Useful Links
+## Integrate into your Angular existed system
 
-More products from Creative Tim: <http://www.creative-tim.com/bootstrap-themes>
+1. Copy js-qrcode, js-dmcode, jsbarcode folder from components file folder
 
-Tutorials: <https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w>
+2. Paste them into your existed Angular project folder
 
-Freebies: <http://www.creative-tim.com/products>
+3. Setup your routing in app.routing.ts
 
-Affiliate Program (earn money): <http://www.creative-tim.com/affiliates/new>
+4. Run ng serve for a dev server. Navigate to http://localhost:4200/. 
 
-Social Media:
+### Available formats (decoders)
+	For a list of available formats, please visit our core package. 
 
-Twitter: <https://twitter.com/CreativeTim>
+	As this feature relies directly on the ZXing's core, so you can find the available formats here:
 
-Facebook: <https://www.facebook.com/CreativeTim>
+	https://github.com/zxing-js/library/blob/master/src/core/BarcodeFormat.ts
 
-Dribbble: <https://dribbble.com/creativetim>
+## Limitations
 
-Google+: <https://plus.google.com/+CreativetimPage>
+1. The component relies on zxing-typescript with a [MIT license](https://github.com/zxing-js/library/blob/master/LICENSE). The library currently supports some 2D and 1D barcode formats, but not them all.
 
-Instagram: <https://instagram.com/creativetimofficial>
-
-[CHANGELOG]: ./CHANGELOG.md
-
-[version-badge]: https://img.shields.io/badge/version-2.2.0-blue.svg
+2. On iOS-Devices camera access works only in native Safari and not in other Browsers (Chrome,...) or Apps that use an UIWebView or WKWebView. This is not a restriction of this component but of the limited WebRTC support by Apple. The behavior might change in future iOS versions as stated [here](https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_11_1.html#//apple_ref/doc/uid/TP40014305-CH14-SW1)
