@@ -30,9 +30,7 @@ Quick start options:
 	<img src="https://github.com/tomz12321/ng-practice-app/blob/tomz12321-readme-2-2/readme-img/Screen-Shot-Download-from-Github.png" width = "1996" height = "502" alt="Screen-Shot-Download-from-Google-drive.png" 
 align=center>
 
-- Download MVPs from Google drive
-
-	https://drive.google.com/drive/u/1/folders/1aUscdtWhmAVoQ83Ii8cSNZSfyfMNgu2i
+- Download MVPs from team Google drive
 	
 	<img src="https://github.com/tomz12321/ng-practice-app/blob/tomz12321-readme-2-2/readme-img/Screen-Shot-Download-from-Google-drive.png" width = "2150" height = "244" alt="Screen-Shot-Download-from-Google-drive.png" 
 align=center>
